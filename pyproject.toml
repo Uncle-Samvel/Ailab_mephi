@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "at"
+version = "0.1.0"
+description = ""
+authors = ["Samvel"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+at-queue = {git = "https://github.com/AILAB-MEPHI/AT_QUEUE.git", rev = "master"}
+sqlalchemy = "^2.0.31"
+psycopg2 = "^2.9.9"
+marshmallow-sqlalchemy = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
